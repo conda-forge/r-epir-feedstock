@@ -1,4 +1,4 @@
-{% set version = "2.0.17" %}
+{% set version = "2.0.19" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/epiR_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/epiR/epiR_{{ version }}.tar.gz
-  sha256: b07e750dd67871c2ee53e86c98ccaf284d83608de3746fffe46da980be294e6b
+  sha256: 3078fb166f4b86edfccca59e79a55cddc3cdbfce1a0e37d9da56d9ef82ac5b60
 
 build:
   merge_build_host: true  # [win]
