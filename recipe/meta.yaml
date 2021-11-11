@@ -23,17 +23,20 @@ build:
 requirements:
   build:
     - {{ posix }}zip               # [win]
+    - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
     - r-biasedurn
     - r-lubridate
     - r-pander
+    - r-sf
     - r-survival
   run:
     - r-base
     - r-biasedurn
     - r-lubridate
     - r-pander
+    - r-sf
     - r-survival
 
 test:
