@@ -31,6 +31,7 @@ requirements:
     - r-pander
     - r-sf
     - r-survival
+    - r-zoo
   run:
     - r-base
     - r-biasedurn
@@ -38,6 +39,7 @@ requirements:
     - r-pander
     - r-sf
     - r-survival
+    - r-zoo
 
 test:
   commands:
