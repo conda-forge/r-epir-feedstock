@@ -1,4 +1,4 @@
-{% set version = "2.0.41" %}
+{% set version = "2.0.43" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/epiR_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/epiR/epiR_{{ version }}.tar.gz
-  sha256: f0a5f81aa3284c5ba8468248f28397ec8c0bd351918a5f7540a50a7bc1165491
+  sha256: b1d1e65755f3309666d365ff4b84b12847f377cad56a546c986acf2179dc2c4e
 
 build:
   merge_build_host: true  # [win]
@@ -31,6 +31,7 @@ requirements:
     - r-pander
     - r-sf
     - r-survival
+    - r-zoo
   run:
     - r-base
     - r-biasedurn
@@ -38,6 +39,7 @@ requirements:
     - r-pander
     - r-sf
     - r-survival
+    - r-zoo
 
 test:
   commands:
