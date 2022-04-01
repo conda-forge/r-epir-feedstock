@@ -27,7 +27,9 @@ requirements:
   host:
     - r-base
     - r-biasedurn
+    - r-flextable
     - r-lubridate
+    - r-officer
     - r-pander
     - r-sf
     - r-survival
@@ -35,7 +37,9 @@ requirements:
   run:
     - r-base
     - r-biasedurn
+    - r-flextable
     - r-lubridate
+    - r-officer
     - r-pander
     - r-sf
     - r-survival
