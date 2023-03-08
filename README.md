@@ -1,11 +1,11 @@
-About r-epir
-============
+About r-epir-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-epir-feedstock/blob/main/LICENSE.txt)
 
 Home: https://fvas.unimelb.edu.au/research/groups/veterinary-epidemiology-melbourne
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-epir-feedstock/blob/main/LICENSE.txt)
 
 Summary: Tools for the analysis of epidemiological data. Contains functions for directly and indirectly adjusting measures of disease frequency, quantifying measures of association on the basis of single or multiple strata of count data presented in a contingency table, and computing confidence intervals around incidence risk and incidence rate estimates. Miscellaneous functions for use in meta-analysis, diagnostic test interpretation, and sample size calculations.
 
