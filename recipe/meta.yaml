@@ -1,6 +1,5 @@
 {% set version = "2.0.75" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-epir
@@ -13,8 +12,7 @@ source:
   sha256: 7912eb3643b6f98dd8440828383630150efa06948544e6de0de978a6d9e95798
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
