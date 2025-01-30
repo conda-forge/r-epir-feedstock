@@ -1,4 +1,4 @@
-{% set version = "2.0.78" %}
+{% set version = "2.0.80" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/epiR_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/epiR/epiR_{{ version }}.tar.gz
-  sha256: 2a4bd6fbae6695befd5433ceae8cb5a455fb5ae66c9206fe524b7f5e20a00d4c
+  sha256: a28307ad9765012785643881e4fae871da74b3000d596d144b9260644abcb42d
 
 build:
   number: 0
