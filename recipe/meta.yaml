@@ -1,4 +1,4 @@
-{% set version = "2.0.89" %}
+{% set version = "2.0.90" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/epiR_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/epiR/epiR_{{ version }}.tar.gz
-  sha256: 501cb5c360a9dcb2e77dbd492089e9f4069ebe4619260d08427bcd9d07c909cd
+  sha256: a85c522abe491c65e72dc7772c6b9c2c63731e532b3b84a47c44f7c1f6ae4035
 
 build:
   number: 0
@@ -51,8 +51,8 @@ test:
 about:
   home: https://fvas.unimelb.edu.au/research/groups/veterinary-epidemiology-melbourne
   license: GPL-2.0-or-later
-  summary: Tools for the analysis of epidemiological data. Contains functions for directly and indirectly adjusting measures of disease frequency, quantifying measures of association on the basis of single or multiple strata of count data presented in a contingency table, and computing confidence intervals around incidence
-    risk and incidence rate estimates. Miscellaneous functions for use in meta-analysis, diagnostic test interpretation, and sample size calculations.
+  summary: Tools for the analysis of epidemiological data. Contains functions for directly and indirectly adjusting measures of disease frequency, quantifying measures of association on the basis of single or multiple strata of count data presented in a contingency table, and computing confidence intervals around 
+    incidence risk and incidence rate estimates. Miscellaneous functions for use in meta-analysis, diagnostic test interpretation, and sample size calculations.
   license_family: GPL2
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
