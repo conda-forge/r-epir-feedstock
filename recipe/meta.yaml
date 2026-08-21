@@ -25,6 +25,7 @@ requirements:
   host:
     - r-base
     - r-biasedurn
+    - r-dfba
     - r-flextable
     - r-lubridate
     - r-officer
@@ -35,6 +36,7 @@ requirements:
   run:
     - r-base
     - r-biasedurn
+    - r-dfba
     - r-flextable
     - r-lubridate
     - r-officer
